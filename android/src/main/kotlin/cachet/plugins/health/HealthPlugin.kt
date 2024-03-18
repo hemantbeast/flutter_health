@@ -2532,6 +2532,7 @@ class HealthPlugin(private var channel: MethodChannel? = null) :
         STEPS to StepsRecord::class,
         AGGREGATE_STEP_COUNT to StepsRecord::class,
         ACTIVE_ENERGY_BURNED to ActiveCaloriesBurnedRecord::class,
+        AGGREGATE_CALORIES_COUNT to TotalCaloriesBurnedRecord::class,
         HEART_RATE to HeartRateRecord::class,
         BODY_TEMPERATURE to BodyTemperatureRecord::class,
         BLOOD_PRESSURE_SYSTOLIC to BloodPressureRecord::class,
